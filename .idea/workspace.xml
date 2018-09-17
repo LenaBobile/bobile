@@ -48,8 +48,8 @@
       <file leaf-file-name="login.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="51">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -517,10 +517,30 @@
     <history-entry file="login - 2018.09.17 at 12h 32m 06s.xml">
       <configuration name="login" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="login - 2018.09.17 at 12h 38m 13s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.17 at 14h 44m 35s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.17 at 14h 55m 58s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.17 at 14h 58m 06s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.17 at 15h 02m 07s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.17 at 15h 11m 12s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.17 at 15h 11m 28s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -528,9 +548,9 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32945284" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50074625" side_tool="true" weight="0.32945284" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32945284" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.33851674" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -570,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="51">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>
