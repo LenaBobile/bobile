@@ -45,22 +45,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1356#1357#0" expanded="true" />
-                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appCreation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/appCreation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="103" column="70" selection-start-line="103" selection-start-column="70" selection-end-line="103" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#1547#1548#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
+                <element signature="e#1787#1788#0" expanded="true" />
+                <element signature="e#1861#1862#0" expanded="true" />
+                <element signature="e#3241#3242#0" expanded="true" />
+                <element signature="e#3258#3259#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -364,12 +412,15 @@
       <list>
         <option value="$PROJECT_DIR$/bobile_qa_project/build.gradle" />
         <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/login.java" />
+        <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/appCreation.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="350" />
+    <option name="y" value="143" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -379,6 +430,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -408,9 +462,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,6 +471,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -433,7 +489,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.login">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -498,9 +554,87 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="login.login" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bobile_qa_project_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="login" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="login.loginWithEmptyFields" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bobile_qa_project_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="login" />
+      <option name="METHOD_NAME" value="loginWithEmptyFields" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="login.loginWithWrongParametr" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bobile_qa_project_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="login" />
+      <option name="METHOD_NAME" value="loginWithWrongParametr" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.login" />
+      <item itemvalue="TestNG.login.loginWithEmptyFields" />
+      <item itemvalue="TestNG.login.loginWithWrongParametr" />
+      <item itemvalue="TestNG.login.login" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.login" />
+        <item itemvalue="TestNG.login.login" />
+        <item itemvalue="TestNG.login.loginWithWrongParametr" />
+        <item itemvalue="TestNG.login.loginWithEmptyFields" />
       </list>
     </recent_temporary>
   </component>
@@ -518,27 +652,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="login - 2018.09.17 at 12h 17m 07s.xml">
-      <configuration name="login" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="login - 2018.09.17 at 12h 32m 06s.xml">
-      <configuration name="login" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="login - 2018.09.17 at 12h 38m 13s.xml">
-      <configuration name="login" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="login - 2018.09.17 at 14h 44m 35s.xml">
-      <configuration name="login" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="login - 2018.09.17 at 14h 55m 58s.xml">
-      <configuration name="login" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="login - 2018.09.17 at 14h 58m 06s.xml">
-      <configuration name="login" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="login - 2018.09.17 at 15h 02m 07s.xml">
-      <configuration name="login" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="login - 2018.09.17 at 15h 11m 12s.xml">
       <configuration name="login" configurationId="TestNG" />
     </history-entry>
@@ -548,25 +661,45 @@
     <history-entry file="login - 2018.09.17 at 15h 12m 28s.xml">
       <configuration name="login" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="login_loginWithEmptyFields - 2018.09.26 at 12h 06m 53s.xml">
+      <configuration name="login.loginWithEmptyFields" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login_loginWithWrongParametr - 2018.09.26 at 12h 07m 57s.xml">
+      <configuration name="login.loginWithWrongParametr" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login_login - 2018.09.26 at 12h 33m 41s.xml">
+      <configuration name="login.login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.26 at 14h 03m 59s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.26 at 14h 08m 57s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.26 at 14h 11m 44s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="login - 2018.09.26 at 14h 12m 40s.xml">
+      <configuration name="login" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
+    <frame x="350" y="143" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50074625" side_tool="true" weight="0.32945284" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.33846155" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.33846155" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2619403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26567164" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.32985073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -577,10 +710,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -601,13 +735,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="68">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="e#3258#3259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,14 +783,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        <state relative-caret-position="51">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="103" column="70" selection-start-line="103" selection-start-column="70" selection-end-line="103" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="e#3258#3259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/appCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
