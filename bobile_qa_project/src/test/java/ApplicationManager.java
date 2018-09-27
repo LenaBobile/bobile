@@ -72,11 +72,15 @@ public class ApplicationManager {
     }
 
     public void chooseBusinessType() {
-        //wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+        //wd.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
+        //wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(wd, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='second-btn register-btn advance-stage button-next-app-type']")));
-        WebElement appType = wd.findElement(By.xpath("//input[@value='smb_services']"));
-        appType.click();
+        WebElement appType = wd.findElement(By.cssSelector(".radio-button-service[value='smb_services']"));
+        appType.sendKeys("\n");
+
+
         //wd.findElement(By.cssSelector("input.radio-button-service")).click();
         //div[@class='element-input-wrapper part-title']//div[@class='row']//div[@class='row']//div[1]//div[1]//div[3]//div[1]
         //input[@value='smb_services']
@@ -87,10 +91,13 @@ public class ApplicationManager {
     }
 
     public void fillAppName(String appname) {
-        //Thread.sleep(2000);
+        wait = new WebDriverWait(wd, 30);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("app-name")));
+
         wd.findElement(By.id("app-name")).click();
         wd.findElement(By.id("app-name")).clear();
         wd.findElement(By.id("app-name")).sendKeys(appname);
+
     }
 
     public void chooseAppCategory() {

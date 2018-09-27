@@ -13,11 +13,17 @@ public class appCreation extends TestBase {
     @Test
 
     public void appCreation() {
+
         app.clickOnPlusBtn();
+
         app.chooseBusinessType();
+
         app.clickOnNextBtnStep1();
+
         app.fillAppName("Service app");
+
         app.chooseAppCategory();
+
         app.clickOnNextBtnStep2();
         app.clickOnNoFacebookBtn();
         app.clickOnContinueBtn();
@@ -26,6 +32,7 @@ public class appCreation extends TestBase {
         app.clickStartTrial();
         app.confirmPurchase();
         app.clickOnGoToWorkspace();
+
     }
 
 }
