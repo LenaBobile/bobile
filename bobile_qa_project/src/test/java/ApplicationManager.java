@@ -1,13 +1,17 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     //FirefoxDriver wd;
     ChromeDriver wd;
+    WebDriverWait wait;
 
     public static boolean isAlertPresent(FirefoxDriver wd) {
         try {
@@ -53,6 +57,12 @@ public class ApplicationManager {
         wd.quit();
     }
 
+    public void login(String username, String password) {
+        enterUserName(username);
+        enterPassword(password);
+        clickLoginBtn();
+    }
+
     public void logout() {
         wd.findElement(By.xpath("//div[@class='col-md-2 col-md-offset-10 text-right']//div[@class='option-holder logOut float-left']")).click();
     }
@@ -62,9 +72,14 @@ public class ApplicationManager {
     }
 
     public void chooseBusinessType() {
-        wait();
-        wd.findElement(By.xpath("//input[@value='smb_services']")).click();
-
+        //wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        wait = new WebDriverWait(wd, 30);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='second-btn register-btn advance-stage button-next-app-type']")));
+        WebElement appType = wd.findElement(By.xpath("//input[@value='smb_services']"));
+        appType.click();
+        //wd.findElement(By.cssSelector("input.radio-button-service")).click();
+        //div[@class='element-input-wrapper part-title']//div[@class='row']//div[@class='row']//div[1]//div[1]//div[3]//div[1]
+        //input[@value='smb_services']
     }
 
     public void clickOnNextBtnStep1() {
@@ -72,7 +87,7 @@ public class ApplicationManager {
     }
 
     public void fillAppName(String appname) {
-        wait();
+        //Thread.sleep(2000);
         wd.findElement(By.id("app-name")).click();
         wd.findElement(By.id("app-name")).clear();
         wd.findElement(By.id("app-name")).sendKeys(appname);
@@ -90,17 +105,37 @@ public class ApplicationManager {
     }
 
     public void clickOnNoFacebookBtn() {
-        wait();
+        wait = new WebDriverWait(wd,80);
         wd.findElement(By.xpath("//div[@class='second-btn login-btn clickAppName']")).click();
         //No thanks btn
     }
 
     public void clickOnContinueBtn() {
-        wait();
+        wait = new WebDriverWait(wd,80);
         wd.findElement(By.xpath("//div[@class='second-btn workspace']")).click();
     }
 
     public void choosePlan() {
         wd.findElement(By.xpath("//div[@data-monthid='62']")).click();
+        //plan id - 62
+    }
+
+    public void chooseSubscription() {
+        wd.findElement(By.xpath("//div[@class='plan-select']//input[@class='monthSubscription']")).click();
+    }
+
+    public void clickStartTrial(){
+        wd.findElement(By.xpath("//div[@class='plan-buy continueTrial select_subscription purchase']")).click();
+    }
+
+
+    public void confirmPurchase() {
+        wd.findElement(By.xpath("//div[@class='popover-confirm popover-btn second-btn']")).click();
+    }
+
+    public void clickOnGoToWorkspace() {
+        wait = new WebDriverWait(wd,80);
+        wd.findElement(By.xpath("//div[@class='second-btn post-show-btn']")).click();
     }
 }
+
