@@ -76,9 +76,9 @@ public class ApplicationManager {
         //wd.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
         //wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(wd, 30);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='second-btn register-btn advance-stage button-next-app-type']")));
-        WebElement appType = wd.findElement(By.cssSelector(".radio-button-service[value='smb_services']"));
-        appType.sendKeys("\n");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.smb-type-holder")));
+        wd.findElement(By.cssSelector("div.smb-type-holder")).click();
+
 
 
         //wd.findElement(By.cssSelector("input.radio-button-service")).click();
