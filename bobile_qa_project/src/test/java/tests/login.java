@@ -1,8 +1,10 @@
+package tests;
+
 import org.testng.annotations.*;
+import tests.TestBase;
 
 public class login extends TestBase {
 
-    @BeforeMethod
 
     @Test
     public void login() {

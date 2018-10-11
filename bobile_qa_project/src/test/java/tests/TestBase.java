@@ -1,3 +1,6 @@
+package tests;
+
+import manager.ApplicationManager;
 import org.testng.annotations.AfterClass;
 
 import org.testng.annotations.BeforeClass;
@@ -11,10 +14,10 @@ public class TestBase {
         app.init();
     }
 
-    @AfterClass
-    public void tearDown() {
-        app.stop();
-    }
+//    @AfterClass
+//    public void tearDown() {
+//        app.stop();
+//    }
 
 
 }

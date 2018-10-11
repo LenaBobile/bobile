@@ -1,4 +1,7 @@
+package manager;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,66 +9,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.concurrent.TimeUnit;
 
-public class ApplicationManager {
+public class AppCreationHelper {
     //FirefoxDriver wd;
     ChromeDriver wd;
     WebDriverWait wait;
 
-    public static boolean isAlertPresent(FirefoxDriver wd) {
-        try {
-            wd.switchTo().alert();
-            return true;
-        } catch (NoAlertPresentException e) {
-            return false;
-        }
+    public AppCreationHelper(ChromeDriver wd) {
+        this.wd = wd;
     }
 
-    public void init() {
-        //wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
-        wd = new ChromeDriver();
-        wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        openSite("https://sandbox.bobile.com/admin/credential/login/");
-    }
-
-    public void closeErrorMessage() {
-        wd.findElement(By.xpath("//span[contains(text(),'Close')]")).click();
-    }
-
-    public void clickLoginBtn() {
-        wd.findElement(By.id("login")).click();
-    }
-
-    public void enterPassword(String password) {
-        wd.findElement(By.id("password")).click();
-        wd.findElement(By.id("password")).clear();
-        wd.findElement(By.id("password")).sendKeys(password);
-    }
-
-    public void enterUserName(String username) {
-        wd.findElement(By.id("username")).click();
-        wd.findElement(By.id("username")).clear();
-        wd.findElement(By.id("username")).sendKeys(username);
-    }
-
-    public void openSite(String site) {
-        wd.get(site);
-    }
-
-    public void stop() {
-        wd.quit();
-    }
-
-    public void login(String username, String password) {
-        enterUserName(username);
-        enterPassword(password);
-        clickLoginBtn();
-    }
-
-    public void logout() {
-        wd.findElement(By.xpath("//div[@class='col-md-2 col-md-offset-10 text-right']//div[@class='option-holder logOut float-left']")).click();
-    }
 
     public void clickOnPlusBtn() {
         wd.findElement(By.xpath("//div[@id='createApp']")).click();
@@ -78,16 +31,13 @@ public class ApplicationManager {
         wait = new WebDriverWait(wd, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.smb-type-holder")));
         wd.findElement(By.cssSelector("div.smb-type-holder")).click();
-
-
-
         //wd.findElement(By.cssSelector("input.radio-button-service")).click();
         //div[@class='element-input-wrapper part-title']//div[@class='row']//div[@class='row']//div[1]//div[1]//div[3]//div[1]
         //input[@value='smb_services']
     }
 
     public void clickOnNextBtnStep1() {
-        wd.findElement(By.xpath("//div[@class='second-btn register-btn advance-stage button-next-app-type']"));
+        wd.findElement(By.xpath("//div[@class='second-btn register-btn advance-stage button-next-app-type']")).click();
     }
 
     public void fillAppName(String appname) {
@@ -103,7 +53,8 @@ public class ApplicationManager {
     public void chooseAppCategory() {
         wd.findElement(By.id("select2-selectSubCategory-container")).click();
         //click on the container
-        wd.findElement(By.xpath("//span[@aria-activedescendant='select2-selectSubCategory-result-88v5-73']")).click();
+        wd.findElement(By.xpath("//input[@type='search']")).sendKeys("Artists" + Keys.ENTER);
+        //wd.findElement(By.xpath("//span[@aria-activedescendant='select2-selectSubCategory-result-te1l-8']")).click();
         //choose category (category id -73)
     }
 
@@ -112,8 +63,9 @@ public class ApplicationManager {
     }
 
     public void clickOnNoFacebookBtn() {
-        wait = new WebDriverWait(wd,80);
-        wd.findElement(By.xpath("//div[@class='second-btn login-btn clickAppName']")).click();
+        //wait = new WebDriverWait(wd, 30);
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='left-box grab-box']//div[@class='second-btn login-btn clickAppName']")));
+        wd.findElement(By.cssSelector("div.col-md-12 > div.left-box.grab-box>div.row>div.row>div.col-md-6>div.second-btn.login-btn.clickAppName > span:nth-child(1)")).click();
         //No thanks btn
     }
 
@@ -123,7 +75,7 @@ public class ApplicationManager {
     }
 
     public void choosePlan() {
-        wd.findElement(By.xpath("//div[@data-monthid='62']")).click();
+        wd.findElement(By.xpath("//div[@data-monthid='62'][@xpath='2']")).click();
         //plan id - 62
     }
 
@@ -135,7 +87,6 @@ public class ApplicationManager {
         wd.findElement(By.xpath("//div[@class='plan-buy continueTrial select_subscription purchase']")).click();
     }
 
-
     public void confirmPurchase() {
         wd.findElement(By.xpath("//div[@class='popover-confirm popover-btn second-btn']")).click();
     }
@@ -145,4 +96,3 @@ public class ApplicationManager {
         wd.findElement(By.xpath("//div[@class='second-btn post-show-btn']")).click();
     }
 }
-
