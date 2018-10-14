@@ -1,19 +1,18 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.JavascriptExecutor;
 
 
 public class AppCreationHelper {
     //FirefoxDriver wd;
     ChromeDriver wd;
     WebDriverWait wait;
+
 
     public AppCreationHelper(ChromeDriver wd) {
         this.wd = wd;
@@ -70,12 +69,15 @@ public class AppCreationHelper {
     }
 
     public void clickOnContinueBtn() {
-        wait = new WebDriverWait(wd,80);
         wd.findElement(By.xpath("//div[@class='second-btn workspace']")).click();
+
     }
 
     public void choosePlan() {
-        wd.findElement(By.xpath("//div[@data-monthid='62'][@xpath='2']")).click();
+        ((JavascriptExecutor)wd).executeScript("scroll(0,900)");
+        wait = new WebDriverWait(wd, 30);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@data-monthid='35']")));
+        wd.findElement(By.xpath("//div[@data-monthid='35']")).click();
         //plan id - 62
     }
 
@@ -84,6 +86,7 @@ public class AppCreationHelper {
     }
 
     public void clickStartTrial(){
+        ((JavascriptExecutor)wd).executeScript("scroll(0,400)");
         wd.findElement(By.xpath("//div[@class='plan-buy continueTrial select_subscription purchase']")).click();
     }
 

@@ -3,6 +3,8 @@ package tests;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.awt.*;
+
 
 public class appCreation extends TestBase {
 
@@ -14,7 +16,7 @@ public class appCreation extends TestBase {
 
     @Test
 
-    public void appCreation() {
+    public void appCreation() throws AWTException {
 
 //        app.getAppCreationHelper().clickOnPlusBtn();
 //
@@ -33,7 +35,7 @@ public class appCreation extends TestBase {
 
 
         app.getAppCreationHelper().choosePlan();
-        app.getAppCreationHelper().chooseSubscription();
+        //app.getAppCreationHelper().chooseSubscription();
         app.getAppCreationHelper().clickStartTrial();
         app.getAppCreationHelper().confirmPurchase();
         app.getAppCreationHelper().clickOnGoToWorkspace();
