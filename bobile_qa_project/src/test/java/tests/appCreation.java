@@ -3,8 +3,6 @@ package tests;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.awt.*;
-
 
 public class appCreation extends TestBase {
 
@@ -16,7 +14,7 @@ public class appCreation extends TestBase {
 
     @Test
 
-    public void appCreation() throws AWTException {
+    public void appCreation() throws Exception {
 
 //        app.getAppCreationHelper().clickOnPlusBtn();
 //
@@ -32,10 +30,10 @@ public class appCreation extends TestBase {
 //        app.getAppCreationHelper().clickOnNoFacebookBtn();
         app.clickonManageBtn("Z@**@XFEMN0fH7zwuq1OtJS1v1D@**@GgFTKvfMKXuNNjYxUg=");
         app.getAppCreationHelper().clickOnContinueBtn();
-
-
+        app.getAppCreationHelper().Wait(2000);
         app.getAppCreationHelper().choosePlan();
         //app.getAppCreationHelper().chooseSubscription();
+        app.getAppCreationHelper().Wait(2000);
         app.getAppCreationHelper().clickStartTrial();
         app.getAppCreationHelper().confirmPurchase();
         app.getAppCreationHelper().clickOnGoToWorkspace();

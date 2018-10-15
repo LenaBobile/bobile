@@ -2,10 +2,11 @@ package manager;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.JavascriptExecutor;
+
+import java.awt.*;
 
 
 public class AppCreationHelper {
@@ -73,11 +74,15 @@ public class AppCreationHelper {
 
     }
 
-    public void choosePlan() {
-        ((JavascriptExecutor)wd).executeScript("scroll(0,900)");
-        wait = new WebDriverWait(wd, 30);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@data-monthid='35']")));
-        wd.findElement(By.xpath("//div[@data-monthid='35']")).click();
+    public void choosePlan() throws AWTException, Exception {
+        ((JavascriptExecutor)wd).executeScript("scroll(0,2000)");
+//        Robot robot = new Robot();
+//        robot.keyPress(KeyEvent.VK_PAGE_DOWN);
+//        robot.keyRelease(KeyEvent.VK_PAGE_DOWN);
+
+        Wait(1000);
+        ((JavascriptExecutor)wd).executeScript("$('div[data-monthid=35]').click()");
+        //wd.findElement(By.xpath("//div[@data-monthid='35']")).click();
         //plan id - 62
     }
 
@@ -86,8 +91,9 @@ public class AppCreationHelper {
     }
 
     public void clickStartTrial(){
-        ((JavascriptExecutor)wd).executeScript("scroll(0,400)");
-        wd.findElement(By.xpath("//div[@class='plan-buy continueTrial select_subscription purchase']")).click();
+        //((JavascriptExecutor)wd).executeScript("scroll(0,400)");
+        //wd.findElement(By.xpath("//div[@class='plan-buy continueTrial select_subscription purchase']")).click();
+        ((JavascriptExecutor)wd).executeScript("$(\".plan-buy.startTrial.select_subscription.purchase\").click();");
     }
 
     public void confirmPurchase() {
@@ -97,5 +103,9 @@ public class AppCreationHelper {
     public void clickOnGoToWorkspace() {
         wait = new WebDriverWait(wd,80);
         wd.findElement(By.xpath("//div[@class='second-btn post-show-btn']")).click();
+    }
+
+    public void Wait(int millis) throws Exception {
+        Thread.sleep(millis);
     }
 }
