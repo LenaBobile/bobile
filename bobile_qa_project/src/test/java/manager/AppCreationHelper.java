@@ -93,11 +93,13 @@ public class AppCreationHelper {
     public void clickStartTrial(){
         //((JavascriptExecutor)wd).executeScript("scroll(0,400)");
         //wd.findElement(By.xpath("//div[@class='plan-buy continueTrial select_subscription purchase']")).click();
-        ((JavascriptExecutor)wd).executeScript("$(\".plan-buy.startTrial.select_subscription.purchase\").click();");
+        ((JavascriptExecutor)wd).executeScript("$('plan-buy.continueTrial.select_subscription purchase').click();");
+        //((JavascriptExecutor)wd).executeScript("$(\".plan-buy.startTrial.select_subscription.purchase\").click();");
     }
 
     public void confirmPurchase() {
-        wd.findElement(By.xpath("//div[@class='popover-confirm popover-btn second-btn']")).click();
+        ((JavascriptExecutor)wd).executeScript("$('.payment-form-update-button.second-btn').click();");
+        //wd.findElement(By.xpath("//div[@class='popover-confirm popover-btn second-btn']")).click();
     }
 
     public void clickOnGoToWorkspace() {

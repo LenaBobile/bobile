@@ -16,25 +16,29 @@ public class appCreation extends TestBase {
 
     public void appCreation() throws Exception {
 
-//        app.getAppCreationHelper().clickOnPlusBtn();
-//
-//        app.getAppCreationHelper().chooseBusinessType();
-//
-//        app.getAppCreationHelper().clickOnNextBtnStep1();
-//
-//        app.getAppCreationHelper().fillAppName("Service app");
-//
-//        app.getAppCreationHelper().chooseAppCategory();
-//
-//        app.getAppCreationHelper().clickOnNextBtnStep2();
-//        app.getAppCreationHelper().clickOnNoFacebookBtn();
-        app.clickonManageBtn("Z@**@XFEMN0fH7zwuq1OtJS1v1D@**@GgFTKvfMKXuNNjYxUg=");
+        app.getAppCreationHelper().clickOnPlusBtn();
+
+        app.getAppCreationHelper().chooseBusinessType();
+
+        app.getAppCreationHelper().clickOnNextBtnStep1();
+
+        app.getAppCreationHelper().fillAppName("Autotest");
+
+        app.getAppCreationHelper().chooseAppCategory();
+
+        app.getAppCreationHelper().clickOnNextBtnStep2();
+        app.getAppCreationHelper().Wait(4000);
+        app.getAppCreationHelper().clickOnNoFacebookBtn();
+
+        //app.clickonManageBtn("fAD5yhSqgOwoFSLrfig1ygAg98AMtEa91710wAu998g=");
         app.getAppCreationHelper().clickOnContinueBtn();
         app.getAppCreationHelper().Wait(2000);
         app.getAppCreationHelper().choosePlan();
-        //app.getAppCreationHelper().chooseSubscription();
         app.getAppCreationHelper().Wait(2000);
+        //app.getAppCreationHelper().chooseSubscription();
+        app.getAppCreationHelper().Wait(6000);
         app.getAppCreationHelper().clickStartTrial();
+        app.getAppCreationHelper().Wait(4000);
         app.getAppCreationHelper().confirmPurchase();
         app.getAppCreationHelper().clickOnGoToWorkspace();
 

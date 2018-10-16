@@ -61,8 +61,8 @@
       <file leaf-file-name="appCreation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/appCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +73,8 @@
       <file leaf-file-name="AppCreationHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/AppCreationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="95" column="114" selection-start-line="95" selection-start-column="114" selection-end-line="95" selection-end-column="114" />
+            <state relative-caret-position="121">
+              <caret line="95" column="103" selection-start-line="95" selection-start-column="103" selection-end-line="95" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#460#461#0" expanded="true" />
@@ -406,8 +406,8 @@
         <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/ProductCreation.java" />
         <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/appCreation.java" />
         <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/AppCreationHelper.java" />
+        <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/appCreation.java" />
       </list>
     </option>
   </component>
@@ -717,34 +717,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="appCreation - 2018.10.15 at 12h 53m 45s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 14h 46m 27s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="appCreation - 2018.10.15 at 12h 56m 14s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 14h 47m 57s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="appCreation - 2018.10.15 at 13h 57m 21s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 14h 50m 13s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="appCreation - 2018.10.15 at 13h 59m 52s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 14h 54m 44s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="appCreation - 2018.10.15 at 14h 01m 44s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 14h 58m 26s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="appCreation - 2018.10.15 at 14h 05m 57s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 15h 01m 20s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="appCreation - 2018.10.15 at 14h 07m 45s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 15h 07m 57s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="appCreation - 2018.10.15 at 14h 09m 00s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 15h 18m 47s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="appCreation - 2018.10.15 at 14h 10m 04s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 15h 25m 50s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="appCreation - 2018.10.15 at 14h 25m 22s.xml">
+    <history-entry file="appCreation - 2018.10.16 at 15h 46m 28s.xml">
       <configuration name="appCreation" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -758,9 +758,9 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.15085287" side_tool="true" visible="true" weight="0.33740288" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.15138593" side_tool="true" visible="true" weight="0.33740288" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.84914714" visible="true" weight="0.33740288" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8486141" visible="true" weight="0.33740288" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -771,7 +771,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4946695" weight="0.37513873" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49413645" weight="0.37513873" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -792,7 +792,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/AppCreationHelper.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -821,8 +829,9 @@
         <state relative-caret-position="697">
           <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
           <folding>
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2634#2635#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -851,8 +860,9 @@
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2634#2635#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1134,19 +1144,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="206">
+          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
           <folding>
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2594#2595#0" expanded="true" />
+            <element signature="e#2634#2635#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/AppCreationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="95" column="114" selection-start-line="95" selection-start-column="114" selection-end-line="95" selection-end-column="114" />
+        <state relative-caret-position="121">
+          <caret line="95" column="103" selection-start-line="95" selection-start-column="103" selection-end-line="95" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
@@ -1157,8 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/appCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
