@@ -25,15 +25,10 @@ public class AppCreationHelper {
     }
 
     public void chooseBusinessType() {
-
-        //wd.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-        //wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(wd, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.smb-type-holder")));
         wd.findElement(By.cssSelector("div.smb-type-holder")).click();
-        //wd.findElement(By.cssSelector("input.radio-button-service")).click();
-        //div[@class='element-input-wrapper part-title']//div[@class='row']//div[@class='row']//div[1]//div[1]//div[3]//div[1]
-        //input[@value='smb_services']
+
     }
 
     public void clickOnNextBtnStep1() {
@@ -54,8 +49,6 @@ public class AppCreationHelper {
         wd.findElement(By.id("select2-selectSubCategory-container")).click();
         //click on the container
         wd.findElement(By.xpath("//input[@type='search']")).sendKeys("Artists" + Keys.ENTER);
-        //wd.findElement(By.xpath("//span[@aria-activedescendant='select2-selectSubCategory-result-te1l-8']")).click();
-        //choose category (category id -73)
     }
 
     public void clickOnNextBtnStep2 (){
@@ -63,8 +56,6 @@ public class AppCreationHelper {
     }
 
     public void clickOnNoFacebookBtn() {
-        //wait = new WebDriverWait(wd, 30);
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='left-box grab-box']//div[@class='second-btn login-btn clickAppName']")));
         wd.findElement(By.cssSelector("div.col-md-12 > div.left-box.grab-box>div.row>div.row>div.col-md-6>div.second-btn.login-btn.clickAppName > span:nth-child(1)")).click();
         //No thanks btn
     }
@@ -76,9 +67,6 @@ public class AppCreationHelper {
 
     public void choosePlan() throws AWTException, Exception {
         ((JavascriptExecutor)wd).executeScript("scroll(0,2000)");
-//        Robot robot = new Robot();
-//        robot.keyPress(KeyEvent.VK_PAGE_DOWN);
-//        robot.keyRelease(KeyEvent.VK_PAGE_DOWN);
 
         Wait(1000);
         ((JavascriptExecutor)wd).executeScript("$('div[data-monthid=35]').click()");
@@ -89,14 +77,11 @@ public class AppCreationHelper {
     }
 
     public void clickStartTrial(){
-        //((JavascriptExecutor)wd).executeScript("scroll(0,400)");
         wd.findElement(By.xpath("//div[@class='plan-buy continueTrial select_subscription purchase']")).click();
-        //((JavascriptExecutor)wd).executeScript("$(\"plan-buy.continueTrial.select_subscription purchase\").click();");
-        //((JavascriptExecutor)wd).executeScript("$(\".plan-buy.startTrial.select_subscription.purchase\").click();");
+
     }
 
     public void confirmPurchase() {
-        //((JavascriptExecutor)wd).executeScript("$('.payment-form-update-button.second-btn').click();");
         wd.findElement(By.xpath("//div[@class='popover-confirm popover-btn second-btn']")).click();
     }
 

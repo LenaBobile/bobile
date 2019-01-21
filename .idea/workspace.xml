@@ -39,7 +39,7 @@
       <file leaf-file-name="login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="17">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appCreation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="appCreation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/appCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="-35">
+              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppCreationHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppCreationHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/AppCreationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+            <state relative-caret-position="-763">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -400,8 +400,8 @@
         <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/ProductCreation.java" />
         <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/appCreation.java" />
         <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/AppCreationHelper.java" />
+        <option value="$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/appCreation.java" />
       </list>
     </option>
   </component>
@@ -1084,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/ProductCreation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1127,20 +1120,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/appCreation.java">
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/AppCreationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state relative-caret-position="-763">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/manager/AppCreationHelper.java">
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobile_qa_project/src/test/java/tests/appCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
