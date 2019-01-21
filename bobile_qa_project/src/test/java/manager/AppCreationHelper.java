@@ -82,8 +82,6 @@ public class AppCreationHelper {
 
         Wait(1000);
         ((JavascriptExecutor)wd).executeScript("$('div[data-monthid=35]').click()");
-        //wd.findElement(By.xpath("//div[@data-monthid='35']")).click();
-        //plan id - 62
     }
 
     public void chooseSubscription() {
@@ -92,14 +90,14 @@ public class AppCreationHelper {
 
     public void clickStartTrial(){
         //((JavascriptExecutor)wd).executeScript("scroll(0,400)");
-        //wd.findElement(By.xpath("//div[@class='plan-buy continueTrial select_subscription purchase']")).click();
-        ((JavascriptExecutor)wd).executeScript("$('plan-buy.continueTrial.select_subscription purchase').click();");
+        wd.findElement(By.xpath("//div[@class='plan-buy continueTrial select_subscription purchase']")).click();
+        //((JavascriptExecutor)wd).executeScript("$(\"plan-buy.continueTrial.select_subscription purchase\").click();");
         //((JavascriptExecutor)wd).executeScript("$(\".plan-buy.startTrial.select_subscription.purchase\").click();");
     }
 
     public void confirmPurchase() {
-        ((JavascriptExecutor)wd).executeScript("$('.payment-form-update-button.second-btn').click();");
-        //wd.findElement(By.xpath("//div[@class='popover-confirm popover-btn second-btn']")).click();
+        //((JavascriptExecutor)wd).executeScript("$('.payment-form-update-button.second-btn').click();");
+        wd.findElement(By.xpath("//div[@class='popover-confirm popover-btn second-btn']")).click();
     }
 
     public void clickOnGoToWorkspace() {
